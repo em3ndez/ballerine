@@ -1,458 +1,270 @@
+<div align="right">
+
+<img  src="https://uploads-ssl.webflow.com/62a3bad46800eb4715b2faf1/6463b137c0fec38f87389eb6_star_AdobeExpress%20(2).gif"  alt="Alt Text"  style="width: 100%; height: auto;">
+</div>
 
 <div align="center">
 
-<a href="https://ballerine.io" title="Ballerine - Open-source Infrastructure for Identity and Risk management.">
-    <img src="https://blrn-imgs.s3.eu-central-1.amazonaws.com/github/ballerine-logo.png" alt="Ballerine's website">
+<a href="https://ballerine.com" title="Ballerine - Open-source Infrastructure for Identity and Risk management.">
+    <img src="https://uploads-ssl.webflow.com/62a3bad46800eb4715b2faf1/646372b198f456345c69339c_logo%20github.png" alt="Ballerine's website">
 </a>
 
-# Open-source Infrastructure for User Identity and Risk Management
+## Open-Source Infrastructure for User Risk Decisioning
+
+
+
+
+</br>
+  <!-- Nav header - Start -->
+
+   <a href="https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw">Slack</a>
+    ·
+    <a href="https://www.ballerine.com/">Website</a>
+    ·
+    <a href="#contact-ballerine">Contact</a>
+    ·
+    <a href="https://github.com/ballerine-io/ballerine/issues">Issues</a>
+
+
+<!-- Nav header - END -->
+
+<!-- Badges - Start -->
+
+
+
+   <a href="https://github.com/ballerine-io/ballerine/stargazers"><img src="https://img.shields.io/github/stars/ballerine-io/ballerine?logo=GitHub&style=flat-square"></a>
+   <a href="https://discord.gg/e2rQE4YygA"><img src="https://img.shields.io/website?color=%237289DA&down_color=%237289DA&down_message=Join&label=Discord&logo=discord&logoColor=white&style=flat-square&up_color=%237289DA&up_message=Join&url=https%3A%2F%2Fdiscord.gg%2Fe2rQE4YygA"></a>
+   <a href="https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw"><img src="https://img.shields.io/website?color=%23441949&down_color=%23441949&down_message=Join&label=Slack&logo=slack&logoColor=white&style=flat-square&up_color=%23441949&up_message=Join&url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fballerine-oss%2Fshared_invite%2Fzt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw"></a>
+   <a href="https://twitter.com/ballerine_io"><img src="https://img.shields.io/website?color=%231DA1F2&down_color=%231DA1F2&down_message=Follow&label=Twitter&logo=twitter&logoColor=%231DA1F2&style=flat-square&up_color=%231DA1F2&up_message=%40ballerine.io&url=https%3A%2F%2Ftwitter.com%2FBallerine_io"></a>
+   <a href="https://ycombinator.com"><img src="https://img.shields.io/website?color=%23f26522&down_message=Y%20Combinator&label=Backed&logo=ycombinator&style=flat-square&up_message=Y%20Combinator&url=https%3A%2F%2Fwww.ycombinator.com"></a>
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+[![GitHub release](https://img.shields.io/github/v/release/ballerine-io/ballerine?label=last-release&style=flat-square)](https://github.com/ballerine-io/ballerine/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ballerine-io/ballerine/ci.yml?label=CI&style=flat-square)](https://github.com/ballerine-io/ballerine/actions/workflows/ci.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ballerine-io/ballerine/release.yml?label=Release&style=flat-square)](https://github.com/ballerine-io/ballerine/actions/workflows/release.yml)
+
+</p>
+<!-- Badges - END -->
+
+
+
+
+
 
 </div>
 
-
-## Description
-Ballerine helps any company verify its customers’ identity while providing an amazing user experience by composing verification processes for any vertical and geography using modular building blocks, components, and 3rd party integrations.
-
-### What can you find in this project?
- * KYC/KYB flows and UI in Mobile & web SDK - :white_check_mark: Open Source! - [See the code](https://github.com/ballerine-io/ballerine/tree/main/sdks/web-sdk) | [Live demos](#description-1) | [Docs](#getting-started-with-sdks-flows)
- * Case management dashboard for users approval/rejection - 🎉 Final stages of Open Sourcing!
- * Identity & risk vendors orchestration - :hourglass_flowing_sand: Almost done
- * No-code rule engine to control Frontend and backend flows - :construction: WIP
- 
-[See Detailed Roadmap](#roadmap)
-
-Join our mailing list so you know whenever we release something (like liveliness or the case management back office).
-
-<a href="https://www.ballerine.io/mailing-list" title="Ballerine - Request Access">
-    <img width="160px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/email-updates.png" alt="Ballerine's Early Access">
-</a>
-
-____
-	
-### Why Open Source KYC/KYB & Risk stack?
-
-The goal is to allow any company to manage user identity and risk in a way that suits them and their unique changing needs.
-Main Open Source benefits:
-*  **Future proof** - modular and extendable building blocks.
-*  **Global** - Multiple vendors accessible in one UI and case management dashboard.
-*  **White label** - Customizable UX and UI.
-*  **Community** - Use what others have built, contribute yourself, and leverage community maintenance.
-
-
-<details><summary>See some examples of what you can do with it</summary>
-
-
--  Use different vendors for different audiences - all modules are 100% vendor agnostic.
--  Create your own low-cost KYC with AWS Rekognition, Google vision, and other ML tools.
--  Collect documents in a KYB flow.
--  Implement and modify a case management for user approval/rejection.
--  And more.
-
-If you currently don't have a commercial agreement with KYC vendors, you can use some of the vendors we already integrated with (Identity verification, AML check, etc.), to quickly start processing user's KYC requests. To do so please contacs us at oss@ballerine.io.
-
-</details>
-
-___
-
-## Table of Contents
-
-- [SDK UI Flows](#sdk-ui-flows)
-- [Case management (soon Open Source)](#case-management-soon-open-source)
-- [Workflow builder & Rule engine (WIP)](#workflow-builder--rule-engine-wip)
-- [Getting Started with SDK's Flows](#getting-started-with-sdks-flows)
-     - [Installation](#installation)
-     - [Flows API](#flows-api)
-     - [Embedded Flows](#embedded-flows)
-     - [Standalone/IFrame Flows](#standaloneiframe-flows)
-     - [Native Mobile apps](#native-mobile-apps)
-       + [Customization](#customization)
- - [Roadmap](#roadmap)
-
-# SDK UI Flows
-
-### Description
-With Ballerine's Web & Mobile SDK Flows you can generate custom-made, branded flows to collect KYC/KYB documents and user information.
-The SDK UI is embeddable inside existing apps or deployed as a web app.
-
-<img src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/phones.png">
-
-**Web SDK Benefits:**
-* Pre-made KYC/KYB **Templates and UI Packs**.
-* **Customizable UI** and flow to fit your desired experience and brand.
-* **Vendor agnostic**, use different vendors in the backend.
-* **Multi-platform support** (Desktop, mobile web, mobile native).
-* Edges cases and **long-tail devices covered and tested**.
-* Lightweight and performant, built with Svelte (**less than 50kb gzipped**).
-
-Live demos:
-[KYC 1](https://simple-kyc-demo.ballerine.app/), [KYC 2](https://simple-kyc-demo.ballerine.app/), [KYB](https://simple-kyc-demo.ballerine.app/)
-
-Playground:
-[jsfiddle](https://jsfiddle.net/ballerine/7d0g53xn)
-
-Getting started
-[Click here](#getting-started-with-sdks-flows)
-
-
-<sub>Note - No data is captured and sent anywhere when using the camera in the examples</sub>
-
-___
-
-<details><summary>Some examples of what you can do with it</summary>
-	
--  Create a custom flow you can use with any identity verification vendor.
--  Create a custom flow that your customers can receive in an SMS.
--  Create different types of flows for different types of customers.
-- And more...
-
-</details>
-
-
-# Case management (soon Open Source)
-
-
-### Description
-Give your operating team Ballerine’s case management dashboard so they can approve or reject users, initiate workflows for document re-upload or escalate cases to others in the company. 
-
-* A case management dashboard to approve, reject or classify users manually.
-* Create workflows operators can trigger from the interface.
-* Optimize manual work by customizing the layouts and information presented.
-* Use as a standalone tool or embed in your existing dashboard.
+Ballerine is an open-source user risk decisioning infrastructure that helps companies automate their decisions for customer and business account-opening (KYC, KYB), underwriting, and transaction monitoring, using a flexible rules & workflow engine, 3rd party plugin system, manual review back office, and document & information collection frontend flows.
 
 <br/>
 
-> *We are working on releasing our case management dashboard as Open-Source. Join our mailing list in the button below to get an update once it's out.*	
-> <a href="https://www.ballerine.io/mailing-list" title="Ballerine - Request Access">
-> <br/>
-> <br/>
- >   <img width="160px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/email-updates.png" alt="Ballerine's Early Access">
-</a>
+<div align="center">
 
+<img  src="https://uploads-ssl.webflow.com/62a3bad46800eb4715b2faf1/646375ed9f42af409c55f316_main%20gif%20optimized.gif"  alt="Alt Text"  style="width: 100%; height: auto;">
+</div>
 
 <br/>
 
-<img src="https://blrn-imgs.s3.eu-central-1.amazonaws.com/github/dashboard.png">
+## Our vision for this project
 
-___
+Watch a brief video expalining what we're building.
 
-# Workflow builder & Rule engine (WIP)
-
-
-### Description
-Customize your identity and risk workflows in code or with a low-code platform non-technical staff can play with.
-
-* Test out different vendors to optimize conversion and costs.
-* Utilize data sources and tools contributed by Ballerine or the community.
-* Visualize complex flows to provide observability of how things work to the rest of the company.
+[Watch now](https://youtu.be/0SppYSZOatw)
 
 <br/>
 
-> *Our rule engine is still in development. Join our mailing list in the button below to get an update once it's out.*	
-> <a href="https://www.ballerine.io/mailing-list" title="Ballerine - Request Access">
-> <br/>
-> <br/>
- >   <img width="160px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/email-updates.png" alt="Ballerine's Early Access">
+<a href="https://youtu.be/0SppYSZOatw" title="Ballerine Demo">
+    <img src="https://uploads-ssl.webflow.com/62a3bad46800eb4715b2faf1/646cb35bbee1708f66aa223a_vision%20thumbnail.png" alt="Demo video">
 </a>
 
+
+## Features
+View each component's current state in the [roadmap](#roadmap) below.
+####  Released  - 🎉
+- [**Back office**](https://github.com/ballerine-io/ballerine/blob/main/websites/docs/src/pages/en/learn/back-office.md) - Case management dashboard for manual decision-making.
+
+- **Workflow engine** - Orchestrates and automates the different system's parts.
+
+####  In Development/testing - 🔨
+- **Plugin system** - Integrates with 3rd-party vendors, APIs, and data sources.
+
+- **Rule engine** - Leverage various rule types to ensure user compliance with your risk policy.
+
+####   Planned on roadmap - 📌
+- **Frontend headless SDK**- Real-time modification of KYC/KYB frontend user journeys.
+
+#### Community driven building blocks - 🌍
+- [**User flows UX/UI**](https://github.com/ballerine-io/ballerine/blob/main/websites/docs/src/pages/en/learn/kit.md) - KYC/KYB/Document collection flows and UI via mobile & web SDK.
+
+
+## Why Open Source?
+
+We believe in enabling companies to manage user  identity  and risk according to their unique  and evolving requirements. Ballerine empowers you to  create decisioning processes that are  right  for you. It is flexible, future-proof, easy to implement, secure, and supported by a robust community.
+
+#### Explore What You Can Do With Ballerine
+
+- **Dynamic Experience:** Adaptive user journeys that modify in real-time based on the user's risk.
+- **Data Ownership:** Self-host on-premise to keep sensitive data within your infrastructure.
+- **Global Orchestration:** Add/change vendors and data sources to cater to users from multiple countries.
+- **Cost Reduction:** Retain control over vendor relationships, costs, and communication.
+- And More.
+
+## Try Ballerine Now
+
+**In the following example you can test a simple form of the following infrastructure capabilities**
+
+1. Document collection flow controlled by our **Headless SDK**.
+2. A manual review case management **Back Office**.
+3. Live communication between the parts using a **Workflow Engine**, that also defines the process steps.
+4. A simple JSON containing **Risk Rules** that are checked during the flow.
+
+**Parts of the system you might look for but are not in THIS demo:**
+- Advanced Back Office - To try it out go to our [Case management back office page](https://github.com/ballerine-io/ballerine/blob/main/websites/docs/src/pages/en/learn/back-office.md).
+- KYC/KYB UI flows - To try it out go to our  [Community driven building blocks page](https://github.com/ballerine-io/ballerine/blob/main/websites/docs/src/pages/en/learn/kit.md).
+- Our Plugin System and Rule Engine are still under construction and will soon be released.
+
+
+**Demo example video**
+
+Watch a video of how the demo works, with explainations:
+[Watch now](https://youtu.be/EzBXhUM7gb8)
 
 <br/>
 
+<a href="https://youtu.be/EzBXhUM7gb8" title="Ballerine Demo">
+    <img src="https://uploads-ssl.webflow.com/62a3bad46800eb4715b2faf1/646b32fd3d69c9698cd511a1_vid%20thumbnail.png" alt="Demo video">
+</a>
 
-<img src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/rule%20engine.png">
+<br/>
+<br/>
 
+**Getting started**
 
+To set up a local environment, follow these steps:
+
+1. #### Install prerequisites:
+   - Node.js (Minimum version 18) (you can install node via NVM: [Install NVM](https://github.com/nvm-sh/nvm))
+   - Latest PNPM version (Minimum version 8.0) ([Install PNPM](https://pnpm.io/installation))
+   - Docker and docker compose ([Docker](https://docs.docker.com/desktop), [Docker Compose](https://docs.docker.com/compose/install))
+
+2. #### Clone and install the project:
+   1. Clone the project:
+   ```sh
+   git clone https://github.com/ballerine-io/ballerine.git
+   ```
+   2. Install npm depenencies:
+   ```sh
+   pnpm install
+   ```
+   3. Initialize monorepo:
+   ```sh
+   pnpm monorepo:init
+   ```
+
+3. #### Run the example
+   ```sh
+   pnpm kyc-manual-review-example
+   ```
+
+Once the process is complete,  _2 tabs_   will open in your browser:
+
+1. http://localhost:5173/ - for the _document collection flow_
+2. http://localhost:5137/ - for the  _backffice_
+(It's recommended to have them positioned side-by-side).
+
+##### KYB Manual Review Workflow:
+The following command will run the workflow's backend (workflow service API), the backoffice, and UI example using the headless web SDK:
+```sh
+pnpm kyb-manual-review-example
+```
+<sub>If the tabs have not opened automatically, please use the links provided above.</sub>
+
+**Steps to go over the flow:**
+
+1.  On the KYC UI, click the "Start KYC" button
+2.  Go through and complete the flow
+3.  Go to the backoffice tab to review the new user that was created
+4.  Approve/reject/ask to resubmit
+5.  Get back to the KYC UI to see the result
+
+*Note: some components are currently in beta, if you run into an issue please ping us on Slack
 <br/>
 
 
-# Getting Started with SDK's Flows
-#### Installation
+To start using the paid version or if you need any assistance, reach out to us at oss@ballerine.com. Join our [Discord Channel](https://discord.gg/e2rQE4YygA) and [Slack Channel](https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw) to stay updated and engage with our community.
 
-<ins>CDN:</ins>
+## Contributing
 
-Add this code to your index.html header
+We appreciate all types of contributions and believe that an active community is the secret to a rich and stable oriduct.
+Here are some of the ways you can contribute:
 
-```html
-<script
-  async
-  src="https://cdn.ballerine.io/js/1.1.27/ballerine-sdk.umd.js"
-  crossorigin="anonymous"
-></script>
-```
-<ins>Package Managers:</ins>
-```javascript
-# NPM
-npm install --save @ballerine/web-sdk
-# Yarn
-yarn add @ballerine/web-sdk
-# PNPM
-pnpm add @ballerine/web-sdk
-```
+-   Give us feedback in our  [Slack community](https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw)
+-   Help with bugs and features on [our Issues page](https://github.com/ballerine-io/ballerine/issues)
+-   Submit a  [feature request](https://github.com/ballerine-io/ballerine/issues/new?assignees=&labels=enhancement%2C+feature&template=feature_request.md)  or  [bug report](https://github.com/ballerine-io/ballerine/issues/new?assignees=&labels=bug&template=bug_report.md)
 
-#### Flows API
-| Config Parameter | Type | Description|
-| - | - | - |
-| `uiConfig` | [FlowsUIConfig](#ui-configuration) |Initilazing flows, preloading needed assets and ui packs|
-| `endUserInfo` | [EndUserInfo]()| Use data like ID, name etc.. |
-| `backendConfig`  | [FlowsBackendConfig](#backend-configuration) |Backend endpoint the flows should interact with|
-| `translations` | [FlowsTranslations](#translations) | Change the config after init function|
+## Roadmap
+### High level roadmap
+#### Back office
+- [x] ~~View, approve, rejece pr ask for re-submittion~~
+	- [x] ~~individuals~~
+	- [x] ~~businesses (multiple documents and individuals)~~
+	- [x] ~~Custom documents/information~~
+	- [ ] Transactions
+- [x] ~~Process managment~~
+	- [x] ~~Collect audit logs~~
+	- [x] ~~Assign/re-assign agents~~
+	- [x] ~~Decision results and reasons webhooks~~
+	- [ ] Analytics
+	- [ ] Enforce policy rules on approval
+	- [ ] Show a case's acceptance criteria
 
+**Plugin system**
 
-#### Embedded Flows
-CDN:
-Add this code to your index.html header
-```javascript
-// 1. Add script (see installtion)
-// 2. Initialize SDK & flows (see configuration)
-BallerineSDK.flows.init({...}).then(() => {
-	console.log('flows ready');
-	// 3. Mount selected flow on an element
-	BallerineSDK.flows.mount('my-kyc-flow', 'flow-host-element', {});
-});
-// 4. Listen to finish event (see events)
-BallerineSDK.flows.on('finish', doSomethingFn)
-```
-[example folder]()
+- [x] ~~Trigger a plugin using a workflow~~
+- [x] ~~Create your own custom plugin API~~
+- [ ] Fetch information and pass to other parts
+- [ ] Unified schema
+- [x] ~~Plugins~~
+	- [x] ~~Identity verification providers~~
+	- [x] ~~Business website's context~~
+	- [x] ~~AI multilingual names matching~~
+	- [ ] Business data repositories
+	- [ ] Sanctions screening
+	- [ ] Fraud check
 
-Package Manager:
-```javascript
-import { flows as ballerineFlows } from '@ballerine/web-sdk';
+**Workflow engine**
+- [x] ~~Orchestrate all parts of the flow~~
+- [x] ~~Visualize a workflow (using XState)~~
+- [ ] No code/Low code rules managmgnet UI for non technical team members
+- [ ] A/B test different vendors/rules/flows
 
-await ballerineFlows.init({...}).then(() => console.log('flows ready'));
-// 3. Mount selected flow on an element
-ballerineFlows.mount('my-kyc-flow', 'flow-host-element', {});
-// 4. Listen to finish event (see events)
-ballerineFlows.on('finish', doSomethingFn)
-```
-[example folder]()
-	
-#### Standalone/Iframe Flows
-Code example:
-```html
-<script
-  src="https://cdn.ballerine.io/js/1.1.27/ballerine-sdk.umd.js"
-  integrity="sha384-cHxaE8mk7COVrdyKoDw4cdPC6PLoMItItHZ+LwA18bDaiWJLxV2f2zyVf6Q9Vtww"
-  crossorigin="anonymous"
-  type="module"
-></script>
-<script>
-	const initConfig = {
-		"flows": { "my-kyc-flow": {
-		    "steps": [
-			{"name": "welcome", "id": "welcome" },
-			{ "name": "document-selection", "id": "document-selection",
-			    "documentOptions": ["id_card", "drivers_license", "passport"]},
-			{ "name": "document-photo", "id": "identity-document-shot" },
-			{ "name": "check-document", "id": "identity-document-user-check" },
-			{ "name": "document-photo-back-start", "id": "document-photo-back-start"},
-			{ "name": "selfie", "id": "selfie"},
-			{ "name": "check-selfie", "id": "check-selfie" },
-			{ "name": "loading", "id": "custom-loader" }
-		    ]}
-		}
-	}
-	BallerineSDK.flows.init(initConfig).then(() => {
-		BallerineSDK.flows.mount('my-kyc-flow', 'flow-host-element', {});
-	});	
-}
-</script>
-```
+**Rule engine**
+- [x] ~~Rule-sets in workflows~~
+- [x] ~~Simple rule types ("if this than that" rules)~~
+- [ ] Advance rule types (Matrix, tables, etc.)
+- [x] ~~JSON configuration ability~~
+- [ ] No code/Low code rules managmgnet UI for non technical team members
 
-#### Native Mobile apps
-
-All of the native functionalities happen inside Ballerine's native SDKs (Android & iOS Cameras, Sim checks, Fraud checks) while the representation layer is still a web app (inside a native webview).
-
-This way we can enjoy both worlds:
-* Web UI: Flexible UI that can be changed instantly from the server (no app deployments or store submissions). 
-* Native APIs: Native camera, deep behavioral analysis, ekyc and more...
-
-See Android and iOS repositories for guidance:
-
-[Android SDK](https://github.com/ballerine-io/ballerine-android-sdk) | [iOS SDK](https://github.com/ballerine-io/ballerine-ios-sdk)
-
-___
-### Customization
-
-Customize the UI, the flow's steps, and the backend.
-
-<img src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/flow.png">
-
-#### Flows Configuration
-Flow Initialization:
- ```
- BallerineSDK.flows.init([CONFIG])
- ```
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `uiConfig` | [FlowsUIConfig](#ui-configuration) |Initilazing flows, preloading needed assets and ui packs|
-| `endUserInfo` | [EndUserInfo]()| Use data like ID, name etc.. |
-| `backendConfig`  | [FlowsBackendConfig](#backend-configuration) |Backend endpoint the flows should interact with|
-| `translations` | [FlowsTranslations](#translations) | Change the config after init function|
-
-Running a flow:
- ```
-BallerineSDK.flows.mount('my-flow', elementId, [CONFIG]);
-// or
-BallerineSDK.flows.openModal('my-flow', [CONFIG]);
- ```
-	
-| Config Parameter | Type | Description|
-| - | - | - |
-| `callbacks` | [FlowsCallbacksConfig](#flowscallbacksconfig) |An object contaning callback methods (see below)|
-
-##### FlowsCallbacksConfig:
-| Config Parameter | Type | Description|
-| - | - | - |
-| `onFlowComplete` | IFlowCompletePayload |User completed the flow|
-| `onFlowExit` | IFlowExitPayload |User quits the flow (back button on the first page or pressed close buttons)|
-| `onFlowError` | IFlowErrorPayload |Unexpected errors|
-| `onFlowNavigationUpdate` | IFlowNavigationUpdatePayload |User moved between steps|
-___
-#### UI Configuration
-**Flows UI can be configured in three levels:**
-1. Theme and theme styles
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `uiPack` | `string` - Name or URL |UI Pack is a complete bundles of styles, assets and translations|
-| `theme.general` | FlowsGeneralTheme |General colors, paddings, fonts..|
-
-2. General components styles (**overrides theme**)
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `theme.layout` | FlowsGeneralTheme |Global layout CSS
-| `theme.paragraph` | FlowsGeneralTheme |Global paragraph  CSS
-| `theme.button` | FlowsGeneralTheme |Global button  CSS
-... See more
-
-3. Speceifc step component style (**overrides theme & general component style**)
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `theme.flows['FlowName'].step` | ICSSProperties | Step includes style object and styles for each element
-... See more
-
-As the level is lower it will override the upper ones
-___
-#### Translations
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `remoteUrl` | `string (URL)` | Get a full translation json from remote url
-| `overrides` | `Record<string, string>` |Overide default translations or remote translations
-
-___
-#### Backend Configuration
-
-| Config Parameter | Type | Description|
-| - | - | - |
-| `baseUrl` | `string (URL)` | Backend base URL
-| `auth` | BEAuthConfig | Auth method and Authorization header
-| `endpoints` | BEEndpoints | List of endpoints for each action
-
-If you currently don't have a commercial agreement with KYC vendors, you can use some of the vendors we already integrated with (Identity verification, AML check, etc.), to quickly start processing user's KYC requests. To do so please contacs us at [oss@ballerine.io](mailto:oss@ballerine.io).
-
------
+**Frontend headless SDK**
+- [x] ~~Get KYC/KYB steps from workflow~~
+- [x] ~~Change steps dynamically during a flow~~
+- [ ] Load vendor SDK
 
 
-### Roadmap
+**User flows UX/UI**
+- [x] ~~Mobile and desktop webview flow~~
+- [x] ~~Collect images~~
+- [x] ~~Collect selfies~~
+- [ ] Liveliness
+- [ ] Forms
+- [x] ~~Re-submission flows~~
+...
 
-Click below to tell us what we should work on next by creating feature requests or upvoting existing one.
-
-</be>
-<a href="https://ballerine.canny.io/" title="Ballerine - feature requests">
-    <img width="180px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/vote%20features.png" alt="Ballerine - feature requests">
-</a>
-
-#### General
-- [ ] Documentation Portal
-- [ ] Roadmap Community Voting System
-
-#### Onboarding Suite (KYC/KYB/General Document Collection)
-*Please use the voting system if you think we should prioritize higher a specific chunk*
-
-* [ ] SDKs *(WIP)*
-	- [x] ~~Open sourcing Web SDK~~
-		- [x] ~~UI Customization~~
-		- [x] ~~Flow Customization~~		 
-		- [x] ~~Document collection~~
-		- [x] ~~Selfie~~
-		- [x] ~~KYC/B Templates~~
-		- [x] ~~Vendor/Backend Agnostic~~
-        - [ ] Web liveliness step 
-	- [x] Open-sourcing Android SDK 
-		- [x] ~~Webview Integration~~
-		- [x] ~~Native Camera Option~~
-		- [ ] Native liveliness *(WIP)*
-	- [ ] Open sourcing  iOS SDK *(WIP)*
-		- [x] ~~Webview Integration~~
-		- [x] ~~Native Camera Option~~
-* [ ] Backoffice
-	- [ ] Open Sourcing Case Management 
-		- [x] User Approval Queues
-		- [ ] Operator Collaborations 
-		- [x] Backend Agnostic
-		- [x] Vendor Agnostic
-		- [ ] Transaction Approval Queues 
-* [ ] Dashboard
-	- [ ] Data pipelines (Orchestrator) *(WIP)* 
-		- [ ] Plugin System
-		- Integrations
-			- [x] Veriff
-			- [x] AWS Rekognition
-				- [x] Face Match API
-				- [x] Document Classification
-			- [ ] Google Vision
-				- [ ] Document Classification
-				- [x] Vision OCR
-	- [ ] No-Code Flow Builder
-
-#### Risk Suite
-*Please use the voting system if you think we should prioritize higher a specific chunk*
-* [ ] SDKs *(WIP)*
-	- [x] ~~Open sourcing Web SDK~~
-		- [ ] Behavior data for fraud detection *(WIP)*
-		- [ ] Risk-Based KYC/Step-up KYC Templates *(WIP)*
-	- [x] Open-sourcing Android SDK 
-		- [ ] Behavior data for fraud detection *(WIP)*
-	- [ ] Open sourcing  iOS SDK *(WIP)*
-		- [x] ~~Webview Integration~~
-		- [x] ~~Native Camera Option~~
-* [ ] Backoffice
-	- [ ] Open Sourcing Case Management
-		- [ ] Operator Collaborations
-		- [ ] Transaction Approval Queues
-* [ ] Dashboard
-	- [ ] Data pipelines (Orchestrator) *(WIP)*
-		- Integrations
-			- [ ] AWS
-				- Fraud Detection
-					- [ ] Account Take Over
-	- [ ] Rule/Risk Engine *(WIP)*
+We will soon release our full long-term roadmap to the public.
+Follow this project to stay informed about when we provide updates.
 
 
-#### Get to know when we release more parts
+
+## Contact Ballerine
+
+To start using the paid version or if you need any assistance, reach out to us at oss@ballerine.com. Join our [Discord Channel](discord-link) and [Slack Channel](https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw) to stay updated and engage with our community.
 
 
-Leave us your email on our mailing list and we'll let you know whenever we release a feature or improvement (like liveliness on the camera or the case management back office).
-
-<a href="https://www.ballerine.io/mailing-list" title="Ballerine - Request Access">
-    <img width="160px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/email-updates.png" alt="Ballerine's Early Access">
-</a>
-</br>
-</br>
-Or join our community channels:
-</br>
-</br>
-<a href="https://discord.gg/e2rQE4YygA" title="Ballerine - Discord Channel">
-<img height="18px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/discord%20community.png" alt="Ballerine's Discord Channel"></a>
-</br>
-<a href="https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw" title="Ballerine - Slack Channel">
-<img height="18px" src="https://blrn-staging-assets.s3.eu-central-1.amazonaws.com/slack%20community.png" alt="Ballerine's Slack Channel"></a>
-</br>
-
-___
-
-<i>As you can see, most apps and packages are still private git submodules. We are working on migrating them to this monorepo.</i>\
-<i>If you already want to start using them or want to get involved - reach out to us at [oss@ballerine.io](mailto:oss@ballerine.io).</i>

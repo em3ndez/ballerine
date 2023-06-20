@@ -3,3 +3,5 @@ packages:
   - 'packages/*'
   - 'sdks/*'
   - 'services/*'
+  - 'websites/*'
+  - 'examples/headless-example'
